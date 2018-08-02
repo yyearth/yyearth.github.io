@@ -1,0 +1,95 @@
+body{
+    background: url("../img/bg.png") repeat-x;
+    height: 3000px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header{
+    /*background-color: #bbffaa;*/
+    padding-top: 37px;
+    padding-bottom: 46px;
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+.nav{
+    float: right;
+    margin-top: 22px;
+}
+
+.nav li{
+    float: left;
+    padding: 0px 10px;
+    border-left: 1px dotted #b6b6b6;
+    padding-bottom: 10px;
+}
+
+
+.nav a{
+    color: #666;
+    font: bold 14px Georgia ;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #a1a1a1;
+    text-decoration: underline;
+}
+
+.nav p{
+    color: #b7b7b7;
+    font: 11px Tahoma;
+
+}
+.content{
+    background-color: #bfa;
+}
+
+.shad{
+    height: 15px;
+    background: url("../img/shadow.png") repeat-x;
+}
+
+
+
+.content h1{
+    text-align: center;
+    font: bold 24px Georgia;
+    padding: 6px 0 20px 0;
+    background: url("../img/line.png") center bottom no-repeat;
+    margin-bottom: 38px;
+}
+
+.cs, .pl, .uc{
+    background-color: #abc;
+    /*height: 100px;*/
+    width: 300px;
+    float: left;
+}
+
+.cs{
+    margin: 0 20px;
+}
+
+.content h2{
+    color: #11719e;
+    font: 21px Georgia;
+    
+}
+
+.content p{
+    color: #000;
+}
