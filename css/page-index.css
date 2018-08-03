@@ -1,6 +1,6 @@
 body{
     background: url("../img/bg.png") repeat-x;
-    height: 3000px;
+    /*height: 3000px;*/
 }
 
 .clearfix:before,
@@ -55,7 +55,7 @@ body{
 
 }
 .content{
-    background-color: #bfa;
+    /*background-color: #bfa;*/
 }
 
 .shad{
@@ -73,14 +73,15 @@ body{
     margin-bottom: 38px;
 }
 
-.cs, .pl, .uc{
-    background-color: #abc;
+.cs, .pl, .uc,
+.contact .co, .contact .nu, .contact .sc{
+    /*background-color: #abc;*/
     /*height: 100px;*/
     width: 300px;
     float: left;
 }
 
-.cs{
+.cs, .contact .co{
     margin: 0 20px;
 }
 
@@ -92,4 +93,92 @@ body{
 
 .content p{
     color: #000;
+}
+
+.imgDiv{
+    width: 299px;
+    height: 202px;
+    background: url("../img/img-bg.png") no-repeat;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.imgDiv img{
+    padding-top: 12px;
+    padding-left: 5px;
+}
+
+.p1{
+    color: #8c8c8c;
+    font: 12px Helvetica;
+}
+
+.p2{
+    height: 92px;
+    color: #3e3e3e;
+    font: 13px Helvetica;
+    word-spacing: 2px;
+}
+
+.lm{
+    display: block;
+    width: 163px;
+    height: 40px;
+    background: url(../img/sprite.png) no-repeat 0 -70px;
+    text-decoration: none;
+    color: #016999;
+    font: 12px/40px Helvetica;
+    text-indent: 1em;
+    margin-bottom: 35px;
+}
+
+.contact .co, .contact .nu, .contact .sc{
+    /*height: 300px;*/
+    /*color: #999;*/
+}
+
+.txt{
+    width: 276px;
+    height: 33px;
+    background: url("../img/input.png") no-repeat;
+    border: none;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.tarea{
+    width: 276px;
+    height: 114px;
+    background: url("../img/textarea.png") no-repeat;
+    border: none;
+    resize: none;
+    padding: 10px;
+
+}
+
+.contact h2{
+    color: #444;
+    font: 18px/1 Georgia;
+    border-bottom: 1px dashed #d3d3d3;
+    padding: 44px 0px 10px;
+    margin-bottom: 15px;
+    text-indent: 5px;
+}
+
+
+.btn{
+    width: 163px;
+    height: 32px;
+    background: url("../img/sprite.png") no-repeat 0 -27px;
+    margin: 11px 0px 23px;
+    border: none;
+    text-align: left;
+    text-indent: 1em;
+    cursor: pointer;
+    color: white;
+}
+.footer{
+    height: 173px;
+    background: #333;
+    border-top: 10px solid #4c4c4c;
+
 }
